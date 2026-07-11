@@ -1,0 +1,62 @@
+.analysis-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+}
+
+.analysis-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.analysis-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.analysis-selector {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.analysis-selector button {
+  background: white;
+  border: 2px solid transparent;
+  color: #667eea;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.analysis-selector button:hover,
+.analysis-selector button.active {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.analysis-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
