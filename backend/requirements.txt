@@ -1,0 +1,60 @@
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+alembic==1.12.1
+geoalchemy2==0.14.1
+
+# GIS
+geoPandas==0.14.1
+shapely==2.0.1
+rasterio==1.3.8
+fiona==1.9.5
+projections==2023.12.12
+
+# Data processing
+numpy==1.24.3
+pandas==2.1.3
+scipy==1.11.4
+
+# Computer Vision & AI
+torch==2.1.1
+torchvision==0.16.1
+opencv-python==4.8.1.78
+ultralytics==8.0.239
+segment-anything==1.0
+
+# Earth Engine
+earthengine-api==0.1.379
+
+# API & HTTP
+aiohttp==3.9.1
+requests==2.31.0
+
+# Validation & Security
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# CORS
+fastapi-cors==0.0.6
+
+# Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Development
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+mypy==1.7.0
