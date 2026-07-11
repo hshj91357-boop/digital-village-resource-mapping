@@ -1,0 +1,144 @@
+.gis-map-container {
+  display: flex;
+  height: 100vh;
+  gap: 10px;
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+.map-controls-panel {
+  width: 320px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.control-section {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.control-section:last-child {
+  border-bottom: none;
+}
+
+.control-section h3 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.select-control {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  background: white;
+}
+
+.layers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.layer-item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  transition: all 0.2s ease;
+}
+
+.layer-item:hover {
+  background: #f0f0f0;
+  border-color: #667eea;
+}
+
+.layer-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.layer-checkbox input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.opacity-slider {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+}
+
+.file-input {
+  width: 100%;
+  padding: 8px;
+  border: 2px dashed #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.file-input:hover {
+  border-color: #667eea;
+}
+
+.gis-map {
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.leaflet-draw-toolbar {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup {
+  font-size: 13px;
+  color: #555;
+}
+
+.popup p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
+
+.popup strong {
+  color: #333;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .gis-map-container {
+    flex-direction: column;
+  }
+
+  .map-controls-panel {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .gis-map {
+    flex: 1;
+    border-radius: 0;
+  }
+}
