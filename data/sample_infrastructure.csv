@@ -1,0 +1,7 @@
+id,village_id,type,name,latitude,longitude,properties
+1,1,school,Primary School Raoganj,23.15,78.55,"{\"classes\": \"1-5\", \"students\": 150}"
+2,1,hospital,PHC Raoganj,23.16,78.56,"{\"beds\": 10, \"staff\": 8}"
+3,1,water_tank,Water Tank 1,23.14,78.54,"{\"capacity\": 50000, \"status\": \"active\"}"
+4,2,school,High School Khandwa,23.25,78.75,"{\"classes\": \"6-12\", \"students\": 450}"
+5,2,hospital,Community Health Centre,23.26,78.76,"{\"beds\": 25, \"staff\": 20}"
+6,2,water_tank,Water Tank 2,23.24,78.74,"{\"capacity\": 100000, \"status\": \"active\"}"

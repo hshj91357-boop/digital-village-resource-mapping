@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.5, 23.2],
+            [78.6, 23.2],
+            [78.6, 23.1],
+            [78.5, 23.1],
+            [78.5, 23.2]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Raoganj",
+        "state": "Madhya Pradesh",
+        "district": "Mandla",
+        "population": 12500,
+        "area_sqkm": 45.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.7, 23.3],
+            [78.8, 23.3],
+            [78.8, 23.2],
+            [78.7, 23.2],
+            [78.7, 23.3]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Khandwa",
+        "state": "Madhya Pradesh",
+        "district": "Khandwa",
+        "population": 18900,
+        "area_sqkm": 52.0
+      }
+    }
+  ]
+}
